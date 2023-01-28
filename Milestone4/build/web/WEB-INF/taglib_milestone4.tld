@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2eeweb-jsptaglibrary_2_0.xsd">
+    
+        <!-- The version number of this tag library is required -->
+        <tlib-version>1.0</tlib-version>
+        <short-name>taglib_milestone4</short-name>
+        <!-- The JSP specification version - required 
+        <jspversion>1.1</jspversion>-->
+         <!-- This URI element was missing from Week 8 Course Instructions --> 
+        <uri>allAboutToysURI</uri>
+        <info>Custom tag for All About Toys - Milestone 4</info>
+        
+        <!-- Display Customers tag -->
+        <tag>
+            <!-- Identifier for the tag -->
+            <name>displayCustomersTag</name>
+            <!-- Fully qualified name of the Java class -->
+            <tagclass>customTags.DisplayCustomers</tagclass>
+            <!-- Required when using doTag() rather than doEndTag() - Atib: Derrick Fordyce-->
+            <body-content>empty</body-content>
+        </tag>
+        
+        <!-- Drop Customers tag -->
+        <tag>
+            <!-- Identifier for the tag -->
+            <name>dropCustomersTag</name>
+            <!-- Fully qualified name of the Java class -->
+            <tagclass>customTags.DropCustomers</tagclass>
+            <!-- Required when using doTag() rather than doEndTag() - Atib: Derrick Fordyce-->
+            <body-content>empty</body-content>
+        </tag>
+        
+        <!-- Insert Customers tag -->
+        <tag>
+            <!-- Identifier for the tag -->
+            <name>insertCustomersTag</name>
+            <!-- Fully qualified name of the Java class -->
+            <tagclass>customTags.InsertCustomers</tagclass>
+            <!-- Required when using doTag() rather than doEndTag() - Atib: Derrick Fordyce-->
+            <body-content>empty</body-content>
+        </tag>
+        
+        <!-- Insert Products tag -->
+        <tag>
+            <!-- Identifier for the tag -->
+            <name>insertProductsTag</name>
+            <!-- Fully qualified name of the Java class -->
+            <tagclass>customTags.InsertProducts</tagclass>
+            <!-- Required when using doTag() rather than doEndTag() - Atib: Derrick Fordyce-->
+            <body-content>empty</body-content>
+        </tag>
+        
+        <!-- Display Products tag -->
+        <tag>
+            <!-- Identifier for the tag -->
+            <name>displayProductsTag</name>
+            <!-- Fully qualified name of the Java class -->
+            <tagclass>customTags.DisplayProducts</tagclass>
+            <!-- Required when using doTag() rather than doEndTag() - Atib: Derrick Fordyce-->
+            <body-content>empty</body-content>
+        </tag>
+        
+        <!-- Drop Products tag -->
+        <tag>
+            <!-- Identifier for the tag -->
+            <name>dropProductsTag</name>
+            <!-- Fully qualified name of the Java class -->
+            <tagclass>customTags.DropProducts</tagclass>
+            <!-- Required when using doTag() rather than doEndTag() - Atib: Derrick Fordyce-->
+            <body-content>empty</body-content>
+        </tag>
+</taglib>
